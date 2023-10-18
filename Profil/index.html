@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <img
+        href="#"
+        class="navbar-logo"
+        src="assets/Indovista.png"
+        alt="IndoVista"
+      />
+
+      <div class="input-container">
+        <i class="search" data-feather="search"></i>
+        <input class="pencarian" type="text" placeholder="Ke mana?" />
+      </div>
+
+      <div class="navbar-nav">
+        <a id="profile" href="index.html">Profil</a>
+        <a class="navbar-nav-a" href="../Tambah_Wisata/index.html"
+          ><i class="size-18 black" data-feather="plus-square"></i>Tambah
+          Wisata</a
+        >
+        <a class="navbar-nav-a" href="../Wisata_Favorit/wisata_alam_favorit.html"
+          ><i class="size-18 black" data-feather="heart"></i>Wisata Favorit</a
+        >
+      </div>
+
+      <img href="index.html" class="profile" src="assets/pinkdevil.jpg" alt="profile" />
+
+      <a href="/index.html" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Profil Start -->
+    <section class="profil-user">
+      <div class="layout-profile">
+        <div class="profile-picture">
+          <img class="profile-image" src="assets/arieltatum.jpg" alt="pofile" />
+        </div>
+        <div class="edit-tombol">
+            <button>Edit</button>
+        </div>
+        <div class="profile-detail-layout">
+            <div class="rectangle-layout">
+                <p>Nama</p>
+                <p class="nama">:</p>
+                <p>Anggel Safitri</p>
+            </div>
+            <div class="rectangle-layout">
+                <p>Nama Pengguna</p>
+                <p class="username">:</p>
+                <p>Anggel</p>
+            </div>
+            <div class="rectangle-layout">
+                <p>email</p>
+                <p class="email">:</p>
+                <p>anggel@gmail.com</p>
+            </div>
+            <div class="rectangle-layout">
+                <p>alamat</p>
+                <p class="alamat">:</p>
+                <p class=>Jakarta</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Profil End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

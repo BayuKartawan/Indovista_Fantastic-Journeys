@@ -1,0 +1,368 @@
+:root {
+    --primary: #67F2F5;
+    --secondary: #C08226;
+    --bg: #F2FAFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: #010101;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background: linear-gradient(to left, #B9F0FF, #fffcfc, #f7f5f5);
+    border-bottom: 1px solid #e4e4e4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+    size: 36px;
+}
+
+.navbar .input-container {
+    position: relative;
+    margin: 0 20rem 0 0;
+}
+
+.navbar .input-container input {
+    padding-left: 30px;
+}
+
+.navbar .input-container .search {
+    width: 22px;
+    color: #9f9f9f;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+}
+
+.navbar .input-container .pencarian {
+    width: 180%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 4px;
+    border: 1px solid #0F38A1;
+    border-radius: 10px;
+    text-indent: 10%;
+}
+
+.navbar .navbar-nav a {
+    color: #010101;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 2rem;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #44cdd0;
+}
+
+.navbar .navbar-nav a::after {
+    content: '';
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #44cdd0;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(o.5);
+}
+
+.navbar .navbar-nav-a {
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar .navbar-nav-a .size-18 {
+    width: 14px;
+    height: 14px;
+    margin: 0px 3px 0 0;
+}
+
+.navbar .navbar-nav-a .black {
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: black;
+}
+
+.navbar .navbar-nav-a .black:hover {
+    stroke: #67F2F5;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+.navbar .profile {
+    width: 64px;
+    border-radius: 50%;
+}
+
+#profile {
+    display: none;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+/* Hero Section */
+.tambahwisata {
+    padding: 7rem 12% 1.4rem;
+}
+
+.tambahwisata .content h2 {
+    font-size: 36px;
+}
+
+.tambahwisata .content h2 span {
+    color: var(--secondary);
+}
+
+.tambahwisata .content p,
+.row .input-group p {
+    color: #146C94;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.tambahwisata .content .kategori {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+
+}
+
+.tambahwisata .content .kategori .tombol {
+    background-color: #F2FAFF;
+    border: 1px solid #605DEC;
+    border-radius: 4px;
+    color: #605DEC;
+    padding: 10px 6rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.tambahwisata .content .kategori .tombol:hover {
+    background-color: #605DEC;
+    border: none;
+    color: #F2FAFF;
+}
+
+.tambahwisata .content .kategori .tombol.active {
+    background-color: #605DEC;
+    color: #fff;
+}
+
+.tambahwisata .content .row form {
+    flex: 1 1 45rem;
+}
+
+.tambahwisata .content .row .input-group .namawisata {
+    width: 100%;
+    padding: 10px;
+    background-color: #DEF3FF;
+    border: 1px solid #605DEC;
+    border-radius: 5px;
+}
+
+.tambahwisata .content .row .input-group .deskripsi {
+    width: 100%;
+    padding: 10px 10px 10rem;
+    background-color: #DEF3FF;
+    border: 1px solid #605DEC;
+    border-radius: 5px;
+}
+
+.tambahwisata .content .row .input-group .namawisata::placeholder,
+.deskripsi::placeholder {
+    color: #48B4E5;
+    font-weight: bold;
+}
+
+.tambahwisata .content .row .input-group .custom-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #605DEC;
+    background-color: #DEF3FF;
+    border-radius: 5px;
+    padding: 5rem 10px 3rem 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.tambahwisata .content .row .input-group .custom-input .size-36 {
+    width: 36px;
+    height: 36px;
+    color: #605DEC;
+    stroke: currentColor;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.tambahwisata .content .row .input-group .custom-input a {
+    color: #48B4E5;
+    text-decoration: none;
+}
+
+.tambahwisata .content .row .input-group .custom-input .size-36:hover {
+    fill: #605DEC;
+    stroke: #F2FAFF;
+}
+
+.tambahwisata .content .row .input-group .custom-input a:hover {
+    color: #605DEC;
+}
+
+.tambahwisata .content .row .submit-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tambahwisata .content .row .submit {
+    background-color: #F2FAFF;
+    border: 1px solid #605DEC;
+    border-radius: 4px;
+    color: #605DEC;
+    padding: 12px 55px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px -20px 0 0;
+}
+
+.tambahwisata .content .row .submit:hover {
+    background-color: #605DEC;
+    color: #F2FAFF;
+}
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+
+    /* Navbar */
+    .navbar .input-container {
+        position: relative;
+        margin: 0 0 0 3rem;
+    }
+
+    .navbar .input-container .pencarian {
+        width: 80%;
+        text-indent: 20%;
+    }
+
+    .navbar .navbar-nav a {
+        color: #010101;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 0 0.5rem;
+    }
+
+    /* Hero Section */
+    .tambahwisata .content .kategori .tombol {
+        padding: 8px 2rem;
+        font-size: 16px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 767px) {
+    html {
+        font-size: 62.5%;
+    }
+
+     /* Navbar-Hamburger Menu */
+     #hamburger-menu {
+        color: #0F38A1;
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #f7f5f5;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    #profile {
+        display: block;
+    }
+
+    .navbar .navbar-nav a {
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav-a .size-18 {
+        display: none;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: ScaleX(0.2);
+    }
+
+    .navbar .profile {
+        display: none;
+    }
+
+    /* Hero Section */
+    .tambahwisata .content .kategori .tombol {
+        padding: 9px 2rem;
+        font-size: 11px;
+    }
+
+    .tambahwisata .content .row .submit-container .submit{
+        font-size: 11px;
+        padding: 12px 3rem;
+    }
+}
+
+/* Mobile Phone */
+@media(max-width: 432px) {
+    html {
+        font-size: 42.5%;
+    }
+}

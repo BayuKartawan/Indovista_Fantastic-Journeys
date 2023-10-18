@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html data-wf-domain="indovista.webflow.io" data-wf-page="651ee05788972afb011472df"
+    data-wf-site="651ee05788972afb011472da" lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <title>indoVista</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="https://assets-global.website-files.com/651ee05788972afb011472da/css/indovista.webflow.95a05d530.css"
+        rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script
+        type="text/javascript">WebFont.load({ google: { families: ["Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic", "PT Sans:400,400italic,700,700italic", "Poppins:regular,500,600", "Nunito Sans:regular,500,600,700", "Poppins:regular,700italic,800,800italic,900,900italic"] } });</script>
+    <script
+        type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+    <link href="https://assets-global.website-files.com/651ee05788972afb011472da/6525226696832c06c15a5c97_logo.png"
+        rel="shortcut icon" type="image/x-icon" />
+    <link href="https://assets-global.website-files.com/651ee05788972afb011472da/6525226f2411c9a9c1e7acb2_logos.png"
+        rel="apple-touch-icon" />
+    <link rel="stylesheet" href="css/daftar.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="login.html">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body class="body">
+    <address class="navbar-home">
+        <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
+            role="banner" class="navbar-blok w-nav">
+            <div class="container-nav">
+                <div class="blok-menu"><a href="#hero" class="nav-logo w-nav-brand"><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/6525f639ba903f1d68165393_Indovista%20logo%20footer.svg"
+                            loading="lazy" width="132" alt="" class="logo-indovista" /></a>
+                    <nav role="navigation" class="nav-sub-menu w-nav-menu">
+                        <ul role="list" class="nav-list w-list-unstyled">
+                            <li class="list-item-2"><a href="#" class="menu-nav">Tentang</a></li>
+                            <li class="list-item-2"><a href="#top-wisata" class="menu-nav">Top Wisata</a></li>
+                            <li class="list-item-2"><a href="#ulasan" class="menu-nav">Ulasan</a></li>
+                            <li class="list-item-2"><a href="#ulasan" class="menu-nav">Tambah Wisata</a></li>
+                            <li class="jarak">
+                                <div class="blok-login"><a href="#login" class="tombol-login w-button">Masuk</a></div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="icon-responsiv w-nav-button">
+                        <div class="w-icon-nav-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </address>
+    <section id="hero" class="hero">
+        <div class="w-layout-blockcontainer container-hero w-container">
+            <div class="blok-hero1">
+                <h1 class="heading-hero">Mau Kemana Ges?</h1>
+            </div>
+            <form action="/search" class="search w-form">
+                <div class="div-block-24"><img
+                        src="https://assets-global.website-files.com/651ee05788972afb011472da/65274b23abf5097cad6a6391_iconsearch.svg"
+                        loading="lazy" width="28" alt="" class="image-11" /></div><input type="search"
+                    class="search-input w-input" maxlength="256" name="query" placeholder="Cari..." id="search"
+                    required="" />
+                <div>
+                    <div data-hover="false" data-delay="0" class="dropdown-2 w-dropdown">
+                        <div class="tombol-hero w-dropdown-toggle">
+                            <div class="icon w-icon-dropdown-toggle"></div>
+                            <div class="dropdown">Pilih Provinsi</div>
+                        </div>
+                        <nav class="dropdown-list w-dropdown-list"><a href="/list-wisata"
+                                class="hero-dropdown-list w-dropdown-link">DI Djokjakarta</a><a href="#"
+                                class="hero-dropdown-list w-dropdown-link">NTB</a><a href="#"
+                                class="hero-dropdown-list w-dropdown-link">NTT</a></nav>
+                    </div>
+                </div>
+            </form>
+            <section id="login" class="container forms">
+                <div class="form login">
+                    <div class="form-content">
+                        <header>IndoVista</header>
+                        <br>
+                        <h1>Selamat Datang kembali</h1>
+                        <br>
+                        <p>Silahkan masuk ke akun Anda. <br>
+                           mari kita mulai petualangannya
+                        </p>
+                        <form action="#">
+                            <div class="cancel-icon">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <div class="field input-field">
+                                <input type="email" placeholder="Email atau nomor handphone" class="input">
+                            </div>
+    
+                            <div class="field input-field">
+                                <input type="password" placeholder="Sandi" class="password">
+                                <i class='bx bx-hide eye-icon'></i>
+                            </div>
+    
+                            <div class="field button-field">
+                                <button>Masuk</button>
+                            </div>
+                        </form>
+    
+                        <div class="form-link">
+                            <span>Tidak punya akun? <a href="#" class="link daftar-link">Daftar</a></span>
+                        </div>
+    
+                    </div>
+    
+                    <div class="line"></div>
+    
+                    <div class="media-options">
+                        <a href="#" class="field google">
+                            <img src="gambar/google.png" alt="" class="google-img">
+                            <span>Lanjutkan dengan Google</span>
+                        </a>
+                    </div>
+    
+                    <div class="media-options">
+                        <a href="#" class="field apple">
+                            <i class='bx bxl-apple apple-icon'></i>
+                            <span>Lanjutkan dengan Apple</span>
+                        </a>
+                    </div>
+    
+                    <div class="media-options">
+                        <a href="#" class="field facebook">
+                            <i class='bx bxl-facebook facebook-icon'></i>
+                            <span>Lanjutkan dengan Facebook</span>
+                        </a>
+                    </div>
+    
+                </div>
+    
+                <!-- Daftar -->
+                
+                <link rel="stylesheet" href="css/daftar.css">
+                <div class="form daftar">
+                    <div class="form-content">
+                        <header>Daftar Indovista</header>
+                        <br>
+                        <p>Indovista gratis untuk digunakan. Daftar menggunakan<br>
+                           alamat email atau nomor telepon Anda di bawah ini untuk memulai.
+                        </p>
+                        <form action="#">
+                            <div class="cancel-icon">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <div class="field input-field">
+                                <input type="email" placeholder="Email atau nomor handphone" class="input">
+                            </div>
+        
+                            <div class="field input-field">
+                                <input type="password" placeholder="Sandi" class="password">
+                                <i class='bx bx-hide eye-icon'></i>
+                            </div>
+        
+                            <div class="checkbox">
+                                <input type="checkbox" id="signupcheck">
+                                <label for="signupcheck">Saya menyetujui <a href="">syarat dan ketentuan</a></label> 
+                                <br>
+                                <input type="checkbox" id="signupcheck">
+                                <label for="signupcheck">Kirimi saya pemberitahuan kesepakatan terbaru</label>
+                            </div>
+        
+                            <div class="field button-field">
+                                <button>Buat Akun</button>
+                            </div>
+                        </form>
+        
+                        <div class="form-link">
+                            <span>Sudah punya akun? <a href="#" class="link login-link">Login</a></span>
+                        </div>
+        
+                    </div>
+        
+                    <div class="line"></div>
+        
+                    <div class="media-options">
+                        <a href="#" class="field google">
+                            <img src="gambar/google.png" alt="" class="google-img">
+                            <span>Lanjutkan dengan Google</span>
+                        </a>
+                    </div>
+        
+                    <div class="media-options">
+                        <a href="#" class="field apple">
+                            <i class='bx bxl-apple apple-icon'></i>
+                            <span>Lanjutkan dengan Apple</span>
+                        </a>
+                    </div>
+        
+                    <div class="media-options">
+                        <a href="#" class="field facebook">
+                            <i class='bx bxl-facebook facebook-icon'></i>
+                            <span>Lanjutkan dengan Facebook</span>
+                        </a>
+                    </div>
+        
+                </div>
+                
+            </section>
+
+            <script src="js/script.js"></script>
+    
+        </div>
+    </section>
+    <figure id="top-wisata" class="top-wisata">
+        <div class="w-layout-blockcontainer wisata-alam w-container">
+            <div class="w-layout-blockcontainer top-wisata-alam w-container">
+                <div class="blok-top-wisata-alam">
+                    <h3 class="judultopwisata">Top Wisata Alam</h3><a href="#" class="tombol-top-wisata w-button">Lihat
+                        lebih banyak</a>
+                </div>
+            </div>
+            <div class="w-layout-blockcontainer list-top-wisata-alam w-container">
+                <div class="colum-wisata-alam w-row">
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469c8304129f836f4b70_alam%201.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Pantai Nusa Dua</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Nusa Dua, Bali</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469e3347055e399fa525_alam%202.jpg"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Taman Nasional Komodo</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Pulau Komodo, NTT</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469eca4e4c94de627075_alam%203.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Kepulauan Raja Ampat</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Raja Ampat, Papua Barat</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-layout-blockcontainer wisata-budaya w-container">
+            <div class="w-layout-blockcontainer top-wisata-budayaa w-container">
+                <div class="blok-top-wisata">
+                    <h3 class="judultopwisata">Top Wisata Budaya</h3><a href="#"
+                        class="tombol-top-wisata w-button">Lihat lebih banyak</a>
+                </div>
+            </div>
+            <div class="w-layout-blockcontainer list-top-wisata-alam w-container">
+                <div class="colum-wisata-alam w-row">
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469d9445c4c6bb5cc8f1_budaya%201.jpg"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Desa Penglipuran</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Kab. Bangli, Bali</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469d9445c4c6bb5cc8e8_budaya%202.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Tana Toraja</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Toraja, Sulawesi Selatan</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469aabf5097cad64aba5_budaya%203.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Desa Dayak Pampang</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Samarinda Utara, Kaltim</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-layout-blockcontainer wisata-kuliner w-container">
+            <div class="w-layout-blockcontainer top-wisata-kuliner w-container">
+                <div class="blok-top-wisata">
+                    <h3 class="judultopwisata">Top Wisata Kuliner</h3><a href="#"
+                        class="tombol-top-wisata w-button">Lihat lebih banyak</a>
+                </div>
+            </div>
+            <div class="w-layout-blockcontainer list-top-wisata-alam w-container">
+                <div class="colum-wisata-alam w-row">
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469ac5527c96f2d7c6c8_kuliner%201.jpg"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Gudeg Yu Djum</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Jl. Malioboro, DI. Yogyakarta</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469c27a2921f0a0f3d96_kuliner%202.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Lunpia Semarang</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Semarang, Jawa Tengah</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469cc5527c96f2d7c8bd_kuliner%203.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Sate Maranggi Haji Yetty</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Purwakarta, Jawa Barat</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-layout-blockcontainer wisata-kota w-container">
+            <div class="w-layout-blockcontainer top-wisata-kota w-container">
+                <div class="blok-top-wisata">
+                    <h3 class="judultopwisata">Top Wisata Kota</h3><a href="#" class="tombol-top-wisata w-button">Lihat
+                        lebih banyak</a>
+                </div>
+            </div>
+            <div class="w-layout-blockcontainer list-top-wisata-alam w-container">
+                <div class="colum-wisata-alam w-row">
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469cf1a58fe9565df9bc_kota%201.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Malioboro</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Yogyakarta</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469aabf5097cad64ae96_kota%202.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Kota Tua</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Jakarta</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="cardwisata w-col w-col-4"><a href="#" class="card-top-wisata w-inline-block">
+                            <div class="card-div-1"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6527469cb5d2ef323a9a6016_kota%203.png"
+                                    loading="lazy" alt="" class="card-gambar" /></div>
+                            <div class="div-block-22">
+                                <h3 class="card-nama">Lembang Park &amp; Zoo</h3>
+                            </div>
+                            <div class="w-layout-hflex card-div-3"><img
+                                    src="https://assets-global.website-files.com/651ee05788972afb011472da/6526c0e1d77a6d894798ab07_lokasi%20fix.svg"
+                                    loading="lazy" width="20" alt="" />
+                                <p class="card-alamat">Bandung Barat, Jawa Barat</p>
+                            </div>
+                            <div class="card-div-4">
+                                <div class="w-layout-hflex flex-card">
+                                    <h5 class="card-view">65,03,099 Views</h5>
+                                    <div class="card-rating">
+                                        <h4 class="rating-teks">4.8</h4><img
+                                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186faf4654a99cd57cd_bintang%20home.png"
+                                            loading="lazy" width="19" alt="" class="icon-bintang" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </figure>
+    <section class="promosi">
+        <div class="w-layout-blockcontainer container-9 w-container">
+            <div class="div-block-10">
+                <h1 class="heading-5">WISATA<br />TERBAIK<br />2 0 2 3</h1>
+                <p class="paragraph-5">Hasilnya sudah masuk! Jelajahi daftar destinasi, tempat, dan pengalaman tak
+                    terlupakan yang wajib dikunjungi tahun ini yang dijamin akan menginspirasi.</p>
+            </div>
+            <div class="div-block-11"><a href="#" class="button-2 w-button">Lihat Semua</a></div>
+        </div>
+    </section>
+    <section id="ulasan" class="ulasan">
+        <div class="w-layout-blockcontainer container-10 w-container">
+            <div class="div-block-12">
+                <h1 class="heading-6">Ulasan Pengguna</h1>
+            </div>
+            <div class="blok-ulasan">
+                <div class="div-block-14"><a href="#" class="button-4 w-button"></a></div>
+                <div class="div-block-15">
+                    <div>
+                        <h3 class="heading-7">Ibu Mega / Ibu Rumah Tangga</h3>
+                    </div>
+                    <div><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186d096dfcb63b8cca3_bintang%20nyala.png"
+                            loading="lazy" alt="" /><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186d096dfcb63b8cca3_bintang%20nyala.png"
+                            loading="lazy" alt="" /><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186d096dfcb63b8cca3_bintang%20nyala.png"
+                            loading="lazy" alt="" /><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186d096dfcb63b8cca3_bintang%20nyala.png"
+                            loading="lazy" alt="" /><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/65257186d096dfcb63b8cca3_bintang%20nyala.png"
+                            loading="lazy" alt="" /></div>
+                    <div>
+                        <p class="paragraph-6">&quot;Saya sangat terbantu dengan website ini karena bisa menemukan dan
+                            memberikan saya rekomendasi wisata di daerah yang saya tuju&quot;</p>
+                    </div><a href="#" class="tombol-ulasan w-button">Lihat Semua</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="w-layout-blockcontainer container-11 w-container">
+            <div class="columns w-row">
+                <div class="w-col w-col-3">
+                    <div class="blok-footer"><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/6525f639ba903f1d68165393_Indovista%20logo%20footer.svg"
+                            loading="lazy" width="97" alt="" /></div>
+                    <div class="div-block-25">
+                        <p class="paragraph-7">Teman perjalanan anda</p>
+                    </div>
+                </div>
+                <div class="w-col w-col-3">
+                    <div class="blok-footer">
+                        <h5 class="heading-10">Perusahaan</h5>
+                    </div>
+                    <div class="div-block-26"><a href="#" class="tombol-footer">Tentang</a></div>
+                </div>
+                <div class="w-col w-col-3">
+                    <div class="blok-footer">
+                        <h5 class="heading-10">Kontak</h5>
+                    </div>
+                    <div class="div-block-18"><a href="#" class="tombol-footer">Kenapa Indovista?</a><a href="#"
+                            class="tombol-footer">Email</a></div>
+                </div>
+                <div class="w-col w-col-3">
+                    <div class="blok-footer">
+                        <h5 class="heading-10">Temui Kami</h5>
+                    </div>
+                    <div class="div-block-17"><a href="#" class="tombol-footer">+62 82 1234 56789</a><a href="#"
+                            class="tombol-footer">Jl. Wisata, Jakarta Pusat</a></div>
+                </div>
+            </div>
+            <div class="icon-footer">
+                <div class="w-layout-hflex"><a href="#" class="w-inline-block"><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/6525ff988c508e0a3776e573_icon%20fb.svg"
+                            loading="lazy" width="26" alt="" class="icon-sosmed" /></a><a href="#"
+                        class="link-block-2 w-inline-block"><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/6525ff988c508e0a3776e557_icon%20ig.svg"
+                            loading="lazy" width="26" alt="" class="icon-sosmed" /></a><a href="#"
+                        class="link-block w-inline-block"><img
+                            src="https://assets-global.website-files.com/651ee05788972afb011472da/6525ff98040afbb97fbd58e1_icon%20tweet.svg"
+                            loading="lazy" width="26" alt="" class="icon-sosmed" /></a></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=651ee05788972afb011472da"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="https://assets-global.website-files.com/651ee05788972afb011472da/js/webflow.0e93a03f8.js"
+        type="text/javascript"></script>
+    <script>
+        $(document).ready(function () { $(".w-webflow-badge").removeClass("w-webflow-badge").empty(); });
+    </script>
+</body>
+
+</html>

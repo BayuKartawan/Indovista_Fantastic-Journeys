@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tambah Wisata</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <img
+        href="#"
+        class="navbar-logo"
+        src="assets/Indovista.png"
+        alt="IndoVista"
+      />
+
+      <div class="input-container">
+        <i class="search" data-feather="search"></i>
+        <input class="pencarian" type="text" placeholder="Ke mana?" />
+      </div>
+
+      <div class="navbar-nav">
+        <a id="profile" href="../Profil/index.html">Profil</a>
+        <a class="navbar-nav-a" href="../Tambah_Wisata/index.html"
+          ><i class="size-18 black" data-feather="plus-square"></i>Tambah
+          Wisata</a
+        >
+        <a class="navbar-nav-a" href="../Wisata_Favorit/wisata_alam_favorit.html"
+          ><i class="size-18 black" data-feather="heart"></i>Wisata Favorit</a
+        >
+      </div>
+
+      <img href="../Profil/index.html" class="profile" src="assets/pinkdevil.jpg" alt="profile" />
+
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="tambahwisata">
+      <main class="content">
+        <h2><span>Tambah</span> Wisata</h2>
+        <p>Masukkan Kategori</p>
+        <div class="kategori">
+          <button class="tombol">Wisata Alam</button>
+          <button class="tombol">Wisata Budaya</button>
+          <button class="tombol">Wisata Kuliner</button>
+          <button class="tombol">Wisata Kota</button>
+        </div>
+        <div class="row">
+          <form action="">
+            <div class="input-group">
+              <p>Nama Wisata</p>
+              <input class="namawisata" type="text" placeholder="Nama Wisata" />
+            </div>
+            <div class="input-group">
+              <p>Deskripsi</p>
+              <input
+                class="deskripsi"
+                type="text"
+                placeholder="Tuliskan Deskripsi lengkap"
+              />
+            </div>
+            <div class="input-group">
+              <p>Unggah Gambar</p>
+              <div class="custom-input">
+                <i class="size-36" data-feather="plus-square"></i>
+                <a href="">Tambahkan Foto</a>
+              </div>
+            </div>
+            <div class="submit-container">
+              <button class="submit">Unggah Ulasan</button>
+            </div>
+          </form>
+        </div>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
