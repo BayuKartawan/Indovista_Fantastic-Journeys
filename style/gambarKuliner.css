@@ -1,0 +1,158 @@
+.framegambar1q {
+    background-image: url("../assets/kuliner/kuliner1.png");
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .framegambar2q {
+    background-image: url("../assets/kuliner/kuliner2.png");
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .framegambar3q {
+    background-image: url("../assets/kuliner/kuliner3.png");
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .framegambar4q {
+    background-image: url("../assets/kuliner/kuliner4.png");
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .framegambar5q {
+    background-image: url("../assets/kuliner/kuliner5.png");
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .framegambar6q {
+    background-image: url("../assets/kuliner/kuliner6.png");
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .framegambar1q {
+      background-image: url("../assets/kuliner/kuliner1.png");
+      background-position: 50%;
+      background-size: cover;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-self: stretch;
+      align-items: flex-end;
+      display: flex;
+    }
+
+    .framegambar2q {
+      background-image: url("../assets/kuliner/kuliner2.png");
+      background-position: 50%;
+      background-size: cover;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-self: stretch;
+      align-items: flex-end;
+      display: flex;
+    }
+
+    .framegambar3q {
+      background-image: url("../assets/kuliner/kuliner3.png");
+      background-position: 50%;
+      background-size: cover;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-self: stretch;
+      align-items: flex-end;
+      display: flex;
+    }
+
+    .framegambar4q {
+      background-image: url("../assets/kuliner/kuliner4.png");
+      background-position: 50%;
+      background-size: cover;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-self: stretch;
+      align-items: flex-end;
+      display: flex;
+    }
+
+    .framegambar5q {
+      background-image: url("../assets/kuliner/kuliner5.png");
+      background-position: 50%;
+      background-size: cover;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-self: stretch;
+      align-items: flex-end;
+      display: flex;
+    }
+
+    .framegambar6q {
+      background-image: url("../assets/kuliner/kuliner6.png");
+      background-position: 50%;
+      background-size: cover;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-self: stretch;
+      align-items: flex-end;
+      display: flex;
+    }
+
+}
