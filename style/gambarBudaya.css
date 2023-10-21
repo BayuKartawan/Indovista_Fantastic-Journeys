@@ -1,5 +1,16 @@
-.framegambar1b {
-    background-image: url("../assets/budaya/budaya1.png");
+.framegambar1b, 
+.framegambar2b, 
+.framegambar3b, 
+.framegambar4b, 
+.framegambar5b, 
+.framegambar6b, 
+.framegambar7b, 
+.framegambar8b, 
+.framegambar9b, 
+.framegambar10b, 
+.framegambar11b, 
+.framegambar12b
+{
     background-position: 50%;
     background-size: cover;
     border-top-left-radius: 10px;
@@ -10,149 +21,104 @@
     align-self: stretch;
     align-items: flex-end;
     display: flex;
+}
+ 
+  .framegambar1b{
+    background-image: url("../assets/budaya/budaya1.png");
   }
-
   .framegambar2b {
     background-image: url("../assets/budaya/budaya2.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
-  }
-
+   }
   .framegambar3b {
     background-image: url("../assets/budaya/budaya3.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar4b {
     background-image: url("../assets/budaya/budaya4.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar5b {
     background-image: url("../assets/budaya/budaya5.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar6b {
     background-image: url("../assets/budaya/budaya6.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
+  }
+  .framegambar7b {
+    background-image: url("../assets/budaya/budaya7.png");
+  }
+  .framegambar8b {
+    background-image: url("../assets/budaya/budaya8.png");
+  }
+  .framegambar9b {
+    background-image: url("../assets/budaya/budaya9.png");
+  }
+  .framegambar10b {
+    background-image: url("../assets/budaya/budaya10.png");
+  }
+  .framegambar11b {
+    background-image: url("../assets/budaya/budaya11.png");
+  }
+  .framegambar12b {
+  background-image: url("../assets/budaya/budaya12.png");
   }
 
-  @media screen and (min-width: 1440px) {
-    .framegambar1b {
-      background-image: url("../assets/budaya/budaya1.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
-    }
 
+@media screen and (min-width: 1440px) {
+    .framegambar1b,
+    .framegambar2b,
+    .framegambar3b,
+    .framegambar4b,
+    .framegambar5b,
+    .framegambar6b, 
+    .framegambar7b, 
+    .framegambar8b, 
+    .framegambar9b, 
+    .framegambar10b, 
+    .framegambar11b, 
+    .framegambar12b
+     {
+        background-position: 50%;
+        background-size: cover;
+        flex-direction: column;
+        flex: 1;
+        justify-content: flex-start;
+        align-self: stretch;
+        align-items: flex-end;
+        display: flex;
+     }
+        
+    .framegambar1b{
+        background-image: url("../assets/budaya/budaya1.png");
+    }
     .framegambar2b {
-      background-image: url("../assets/budaya/budaya2.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../asset s/budaya/budaya2.png");
     }
-
     .framegambar3b {
-      background-image: url("../assets/budaya/budaya3.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/budaya/budaya3.png");
     }
-
     .framegambar4b {
-      background-image: url("../assets/budaya/budaya4.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/budaya/budaya4.png");
     }
-
     .framegambar5b {
-      background-image: url("../assets/budaya/budaya5.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/budaya/budaya5.png");
     }
-
     .framegambar6b {
-      background-image: url("../assets/budaya/budaya6.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/budaya/budaya6.png");
     }
-
+    .framegambar7b {
+        background-image: url("../assets/budaya/budaya7.png");
+    }
+    .framegambar8b {
+        background-image: url("../assets/budaya/budaya8.png");
+    }
+    .framegambar9b {
+        background-image: url("../assets/budaya/budaya9.png");
+    }
+    .framegambar10b {
+        background-image: url("../assets/budaya/budaya10.png");
+    }
+    .framegambar11b {
+        background-image: url("../assets/budaya/budaya11.png");
+    }
+    .framegambar12b {
+        background-image: url("../assets/budaya/budaya12.png");
+    }
 }

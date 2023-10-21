@@ -1,5 +1,16 @@
-.framegambar1k {
-    background-image: url("../assets/kota/kota1.png");
+.framegambar1k, 
+.framegambar2k, 
+.framegambar3k, 
+.framegambar4k, 
+.framegambar5k, 
+.framegambar6k, 
+.framegambar7k, 
+.framegambar8k, 
+.framegambar9k, 
+.framegambar10k, 
+.framegambar11k, 
+.framegambar12k
+{
     background-position: 50%;
     background-size: cover;
     border-top-left-radius: 10px;
@@ -10,149 +21,104 @@
     align-self: stretch;
     align-items: flex-end;
     display: flex;
+}
+ 
+  .framegambar1k{
+    background-image: url("../assets/kota/kota1.png");
   }
-
   .framegambar2k {
     background-image: url("../assets/kota/kota2.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
-  }
-
+   }
   .framegambar3k {
     background-image: url("../assets/kota/kota3.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar4k {
     background-image: url("../assets/kota/kota4.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar5k {
     background-image: url("../assets/kota/kota5.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar6k {
     background-image: url("../assets/kota/kota6.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
+  }
+  .framegambar7k {
+    background-image: url("../assets/kota/kota7.png");
+  }
+  .framegambar8k {
+    background-image: url("../assets/kota/kota8.png");
+  }
+  .framegambar9k {
+    background-image: url("../assets/kota/kota9.png");
+  }
+  .framegambar10k {
+    background-image: url("../assets/kota/kota10.png");
+  }
+  .framegambar11k {
+    background-image: url("../assets/kota/kota11.png");
+  }
+  .framegambar12k {
+  background-image: url("../assets/kota/kota1.png");
   }
 
-  @media screen and (min-width: 1440px) {
-    .framegambar1k {
-      background-image: url("../assets/kota/kota1.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
-    }
 
+@media screen and (min-width: 1440px) {
+    .framegambar1k,
+    .framegambar2k,
+    .framegambar3k,
+    .framegambar4k,
+    .framegambar5k,
+    .framegambar6k, 
+    .framegambar7k, 
+    .framegambar8k, 
+    .framegambar9k, 
+    .framegambar10k, 
+    .framegambar11k, 
+    .framegambar12k
+     {
+        background-position: 50%;
+        background-size: cover;
+        flex-direction: column;
+        flex: 1;
+        justify-content: flex-start;
+        align-self: stretch;
+        align-items: flex-end;
+        display: flex;
+     }
+        
+    .framegambar1k{
+        background-image: url("../assets/kota/kota1.png");
+    }
     .framegambar2k {
-      background-image: url("../assets/kota/kota2.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kota/kota2.png");
     }
-
     .framegambar3k {
-      background-image: url("../assets/kota/kota3.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kota/kota3.png");
     }
-
     .framegambar4k {
-      background-image: url("../assets/kota/kota4.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kota/kota4.png");
     }
-
     .framegambar5k {
-      background-image: url("../assets/kota/kota5.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kota/kota5.png");
     }
-
     .framegambar6k {
-      background-image: url("../assets/kota/kota6.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kota/kota6.png");
     }
-
+    .framegambar7k {
+        background-image: url("../assets/kota/kota7.png");
+    }
+    .framegambar8k {
+        background-image: url("../assets/kota/kota8.png");
+    }
+    .framegambar9k {
+        background-image: url("../assets/kota/kota9.png");
+    }
+    .framegambar10k {
+        background-image: url("../assets/kota/kota10.png");
+    }
+    .framegambar11k {
+        background-image: url("../assets/kota/kota11.png");
+    }
+    .framegambar12k {
+        background-image: url("../assets/kota/kota12.png");
+    }
 }

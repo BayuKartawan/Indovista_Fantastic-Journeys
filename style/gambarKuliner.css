@@ -1,5 +1,16 @@
-.framegambar1q {
-    background-image: url("../assets/kuliner/kuliner1.png");
+.framegambar1q, 
+.framegambar2q, 
+.framegambar3q, 
+.framegambar4q, 
+.framegambar5q, 
+.framegambar6q, 
+.framegambar7q, 
+.framegambar8q, 
+.framegambar9q, 
+.framegambar10q, 
+.framegambar11q, 
+.framegambar12q
+{
     background-position: 50%;
     background-size: cover;
     border-top-left-radius: 10px;
@@ -10,149 +21,104 @@
     align-self: stretch;
     align-items: flex-end;
     display: flex;
+}
+ 
+  .framegambar1q {
+    background-image: url("../assets/kuliner/kuliner1.png");
   }
-
   .framegambar2q {
     background-image: url("../assets/kuliner/kuliner2.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
-  }
-
+   }
   .framegambar3q {
     background-image: url("../assets/kuliner/kuliner3.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar4q {
     background-image: url("../assets/kuliner/kuliner4.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar5q {
     background-image: url("../assets/kuliner/kuliner5.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
   }
-
   .framegambar6q {
     background-image: url("../assets/kuliner/kuliner6.png");
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: flex-start;
-    align-self: stretch;
-    align-items: flex-end;
-    display: flex;
+  }
+  .framegambar7q {
+    background-image: url("../assets/kuliner/kuliner7.png");
+  }
+  .framegambar8q {
+    background-image: url("../assets/kuliner/kuliner8.png");
+  }
+  .framegambar9q {
+    background-image: url("../assets/kuliner/kuliner9.png");
+  }
+  .framegambar10q {
+    background-image: url("../assets/kuliner/kuliner10.png");
+  }
+  .framegambar11q {
+    background-image: url("../assets/kuliner/kuliner11.png");
+  }
+  .framegambar12q {
+    background-image: url("../assets/kuliner/kuliner12.png");
   }
 
-  @media screen and (min-width: 1440px) {
-    .framegambar1q {
-      background-image: url("../assets/kuliner/kuliner1.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
-    }
 
+@media screen and (min-width: 1440px) {
+    .framegambar1q,
+    .framegambar2q,
+    .framegambar3q,
+    .framegambar4q,
+    .framegambar5q,
+    .framegambar6q, 
+    .framegambar7q, 
+    .framegambar8q, 
+    .framegambar9q, 
+    .framegambar10q, 
+    .framegambar11q, 
+    .framegambar12q
+     {
+        background-position: 50%;
+        background-size: cover;
+        flex-direction: column;
+        flex: 1;
+        justify-content: flex-start;
+        align-self: stretch;
+        align-items: flex-end;
+        display: flex;
+     }
+        
+    .framegambar1q{
+        background-image: url("../assets/kuliner/kuliner1.png");
+    }
     .framegambar2q {
-      background-image: url("../assets/kuliner/kuliner2.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kuliner/kuliner2.png");
     }
-
     .framegambar3q {
-      background-image: url("../assets/kuliner/kuliner3.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kuliner/kuliner3.png");
     }
-
     .framegambar4q {
-      background-image: url("../assets/kuliner/kuliner4.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kuliner/kuliner4.png");
     }
-
     .framegambar5q {
-      background-image: url("../assets/kuliner/kuliner5.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kuliner/kuliner5.png");
     }
-
     .framegambar6q {
-      background-image: url("../assets/kuliner/kuliner6.png");
-      background-position: 50%;
-      background-size: cover;
-      flex-direction: column;
-      flex: 1;
-      justify-content: flex-start;
-      align-self: stretch;
-      align-items: flex-end;
-      display: flex;
+        background-image: url("../assets/kuliner/kuliner6.png");
     }
-
+    .framegambar7q {
+        background-image: url("../assets/kuliner/kuliner7.png");
+    }
+    .framegambar8q {
+        background-image: url("../assets/kuliner/kuliner8.png");
+    }
+    .framegambar9q {
+        background-image: url("../assets/kuliner/kuliner9.png");
+    }
+    .framegambar10q {
+        background-image: url("../assets/kuliner/kuliner10.png");
+    }
+    .framegambar11q {
+        background-image: url("../assets/kuliner/kuliner11.png");
+    }
+    .framegambar12q {
+        background-image: url("../assets/kuliner/kuliner12.png");
+    }
 }
